@@ -184,8 +184,8 @@ var initDemo = function() {
 
   // MOUSE EVENT
   canvas.addEventListener('wheel', function (e) {
-      min = 0.01;
-      max = 4;
+      min = 0.1;
+      max = 5;
       scaleStep = 0.05;
 
       if (e.deltaY > 0) {
